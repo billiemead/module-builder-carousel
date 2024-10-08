@@ -1,0 +1,17 @@
+{
+    "name": "breeze-magezon/module-builder-carousel",
+    "version": "1.0.0",
+    "description": "Magezon Builder Carousel integration with Breeze Frontend",
+    "type": "magento2-module",
+    "license": [
+        "Proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "BreezeMagezon\\BuilderCarousel\\": ""
+        }
+    }
+}
